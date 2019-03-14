@@ -352,12 +352,6 @@ h2::before {
   color: white;
 }
 
-.marco{
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* inicion de estilos experiencia */
 
 #experiencia .bloque {
@@ -703,7 +697,7 @@ h2::before {
 
 #contacto .marco {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 #contacto p {
@@ -864,4 +858,18 @@ h2::before {
   display: inline-block;
   text-align: center;
   line-height: 37px;
+}
+
+.pie {
+  background-color: #000000;
+  color: #ededed;
+  font-size: 18px;
+  text-align: center;
+  padding: 90px 0px;
+}
+
+.marco{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
