@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'comfortaa';
+}
+/*INICIA LOS ESTILOS DEL HEADER*/
+
+header {
+  position: fixed;
+  padding: 10px 20px 5px 35px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+}
+
+header a img {
+  padding: 2px;
+  border-radius: 3px;
+}
+
+header a img:hover {
+  background-color: #63bc50;
+}
+
+header nav{
+  float: right;
+  margin: 20px auto auto auto;
+}
+
+header nav a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+header nav a:hover {
+  background-color: #63bc50;
+  text-decoration: none;
+  color: #ededed;
+}
+
+[type="checkbox"], label {
+  display: none;
+}
+
+@media screen and (max-width: 1150px) {
+  nav {
+    display: none;
+  }
+
+  label {
+      display: block;
+      background: #222;
+    width: 40px;
+      height: 40px;
+      cursor: pointer;
+    position: absolute;
+    right: 30px;
+      top: 20px;
+  }
+
+  label:after{
+      content:'';
+      display: block;
+      width: 30px;
+      height: 5px;
+      background: #777;
+      margin: 7px 5px;
+      box-shadow: 0px 10px 0px #777, 0px 20px 0px #777;
+    }
+
+  [type="checkbox"]:checked ~ nav {
+      display: block;
+      z-index: 9999;
+      position: absolute;
+      top: 55px;
+      right: 0px;
+      left: 20px;
+    }
+
+  nav a {
+      display: block;
+      float: right;
+      width: 100%;
+      text-align: left;
+      background: #222;
+      text-indent: 20px;
+    }
+}
+
+.embuelto {
+  background-size: cover;
+}
+
+h2 {
+  margin-left: 30px;
+}
