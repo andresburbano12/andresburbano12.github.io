@@ -331,3 +331,29 @@ h2::before {
   display: table;
   width: 100%;
 }
+
+/*inicia los estilos de qoute*/
+
+#quote .marco blockquote {
+  width: 100%;
+}
+#quote p {
+  text-align: center;
+  font-size: 48px;
+}
+#quote footer {
+  text-align: right;
+  margin-top: 10px;
+  color: white;
+}
+#quote {
+  padding: 2em 0em;
+  background-color: #63bc50;
+  color: white;
+}
+
+.marco{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
