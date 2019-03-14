@@ -698,3 +698,170 @@ h2::before {
   display: table;
   width: 100%;
 }
+
+/* inicio estilos contacto */
+
+#contacto .marco {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#contacto p {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 830px) {
+  #contacto p {
+    font-size: 24px;
+  }
+}
+
+#contacto p  a {
+  color: #ededed;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #63bc50;
+}
+
+#contacto p a:hover {
+  text-decoration: none;
+  color: #ededed;
+  background-color: #4d873d;
+}
+
+.formula {
+  /*background-color: aqua;*/
+  width: 50%;
+  float: left;
+  margin: 0;
+}
+
+@media screen and (max-width: 730px) {
+  #contacto .formula {
+    display: block;
+    width: 100%;
+  }
+}
+
+.uno {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  /*background-color: lavender;*/
+}
+
+@media screen and (max-width: 1030px) {
+  .redes .uno {
+    width: 75%;
+    margin-left: 15%;
+    margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .redes .uno {
+    width: 85%;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+}
+
+.formula input {
+  width: 100%;
+  margin: 5px 0px;
+  padding: 5px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+
+.formula textarea {
+  width: 100%;
+  margin: 5px 0px;
+  padding: 5px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+
+#contacto button {
+  float: right;
+  width: 40%;
+  height: 34px;
+  background-color: #63bc50;
+  color: #ededed;
+  border-radius: 5px;
+  border: none;
+
+}
+
+#contacto button:hover {
+  background-color: #4d873d;
+  color: #ededed;
+}
+
+@media screen and (max-width: 730px) {
+  #contacto button {
+    position: relative;
+    left: -30%;
+  }
+}
+
+#contacto .redes {
+  color: black;
+  /*background-color: gold;*/
+  width: 50%;
+  height: 305px;
+  display: inline-block;
+  border-left: 5px solid #63bc50;
+}
+
+@media screen and (max-width: 730px) {
+  #contacto .redes {
+    width: 100%;
+    margin-top: 50px;
+    border: none;
+  }
+  .redes .uno {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .redes .uno {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#contacto .uno a {
+  display: block;
+  font-size: 18px;
+  padding: 10px 0px;
+  margin: 10px 10px 10px 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+#contacto a :hover {
+  color: #ededed;
+  background-color: #63bc50;
+  border-radius: 5px;
+}
+
+.icono {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #63bc50;
+  font-size: 21px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  line-height: 37px;
+}
