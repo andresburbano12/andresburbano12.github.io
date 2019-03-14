@@ -216,3 +216,118 @@ h2::before {
 
 #perfil .marco{
   display: flex;
+}
+
+/*inicia los estilos de habilidades*/
+
+#skills {
+  background-image: url(../images/pic_skills.jpg);
+  background-repeat: no-repeat;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  /*margin-top: 20px;*/
+  height: 850px;
+}
+
+@media screen and (max-width: 900px) {
+  #skills {
+    background-image: none;
+  }
+}
+
+#skills h2 {
+  margin-bottom: 30px;
+  font-size: 32px
+}
+
+@media screen and (max-width: 667px) {
+  #skills h2 {
+    text-align: center;
+  }
+}
+
+#skills ul {
+  list-style-type: none;
+  font-size: 18px;
+}
+
+#skills ul li {
+  margin-bottom: 12px;
+  display: block;
+}
+
+.hardskills {
+  float: left;
+  height: 100%;
+  padding-top: 60px;
+  padding-left: 35px;
+  text-align: left;
+}
+
+.hardskills ul {
+  text-indent: -40px;
+}
+
+.softskills {
+  float: right;
+  height: 100%;
+  padding-top: 60px;
+  padding-right: 35px;
+  text-align: right;
+}
+
+@media screen and (max-width: 667px) {
+  .hardskills {
+    float: none;
+    width: 100%;
+    padding-top: 30px;
+  }
+  .hardskills ul {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .softskills {
+    float: none;
+    width: 100%;
+    text-align: left;
+    padding-left: 35px;
+    padding-top: 30px;
+    padding: 50px;
+  }
+  .softskills ul {
+    text-align: center;
+    margin-bottom: 40px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+#skills p {
+  font-size: 40px;
+  line-height: 1.1;
+}
+
+#skills p strong {
+  font-size: 52px;
+  color: #63bc50;
+}
+
+@media screen and (max-width: 667px) {
+  #skills p {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#skills {
+  display: table;
+  width: 100%;
+}
