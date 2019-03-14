@@ -153,3 +153,66 @@ h2 {
     padding-top: 100px;
   }
 }
+
+/*INICIA LOS ESTILOS DEL PERFIL*/
+
+#carrusel {
+  width: 70%;
+  padding: 0% 3%;
+  display: inline-block;
+}
+
+h2::before {
+  content: "·";
+  background-color: #63bc50;
+  color: #63bc50;
+  margin-right: 10px;
+  font-size: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 100%;
+}
+
+#info-perfil h2 {
+  font-size: 33px;
+  margin-bottom: 30px;
+  line-height: 1em;
+  font-weight: bold;
+  color: white;
+}
+
+#info-perfil h3 {
+  font-size: 18px;
+  color: #63bc50;
+  font-weight: 300;
+}
+
+#info-perfil p {
+  font-size: 22px;
+  color: white;
+}
+
+#info-perfil {
+  display: inline-block;
+  padding: 3%;
+  width: 30%;
+  height: 100%;
+  margin: auto;
+}
+
+@media screen and (max-width: 750px) {
+  #carrusel {
+    display: none;
+  }
+  #info-perfil {
+    width: 250px;
+    margin: auto;
+  }
+}
+
+#perfil {
+  background-color: #101011;
+}
+
+#perfil .marco{
+  display: flex;
